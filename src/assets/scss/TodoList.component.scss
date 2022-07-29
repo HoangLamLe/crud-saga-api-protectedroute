@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(#912bd0, #e08ecd);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+    .App {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        .addTodo {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .editTodo {
+            margin-top: 20px;
+        }
+        .TodoList {
+            width: 60%;
+            height: 98vh;
+            border-radius: 20px;
+            padding: 20px 50px;
+            background: linear-gradient(#1fdd5b, #99ec92);
+            .listTodo {
+                width: 100%;
+            }
+            .AddTodo {
+                margin: 0px auto;
+                label {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+            .todo {
+                display: flex;
+                justify-content: center;
+                Button {
+                    margin-left: 10px;
+                }
+                .ant-input {
+                    width: 82%;
+                }
+                p.test {
+                    width: 50vw;
+                    padding-left: 20px;
+                    word-wrap: break-word;
+                }
+            }
+        }
+    }
+}

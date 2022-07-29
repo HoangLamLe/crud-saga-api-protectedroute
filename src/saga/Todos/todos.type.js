@@ -1,0 +1,25 @@
+export const ADD_REQUEST = "ADD_REQUEST";
+export const ADD_SUCCESS = "ADD_SUCCESS";
+export const ADD_ERROR = "ADD_ERROR";
+
+export const UPDATE_REQUEST = "UPDATE_REQUEST";
+export const UPDATE_SUCCESS = "UPDATE_SUCCESS";
+export const UPDATE_ERROR = "UPDATE_ERROR";
+
+export const COMPLETED_REQUEST = "COMPLETED_REQUEST";
+export const COMPLETED_SUCCESS = "COMPLETED_SUCCESS";
+export const COMPLETED_ERROR = "COMPLETED_ERROR";
+
+export const DELETE_REQUEST = "DELETE_REQUEST";
+export const DELETE_SUCCESS = "DELETE_SUCCESS";
+export const DELETE_ERROR = "DELETE_ERROR";
+
+export const SORT_REQUEST = "SORT_REQUEST";
+export const SORT_SUCCESS = "SORT_SUCCESS";
+export const SORT_ERROR = "SORT_ERROR";
+
+export const FETCH_REQUEST = "FETCH_REQUEST";
+export const FETCH_SUCCESS = "FETCH_SUCCESS";
+export const FETCH_FAILURE = "FETCH_FAILURE";
+
+export const SET_CURRENT_PAGE = "SET_CURRENT_PAGE";
